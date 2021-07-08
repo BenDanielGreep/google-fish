@@ -5,7 +5,7 @@
 * [Guide](#guide)
 
 ## General info
-This project was my first foray into coding! I'm really excited to share this code. There are one or two guides out there, but they had a fatal flaw; the audio signal was beign fed into the Arduino which is VERY dangerous. It contains negative voltage which will damage and destroy your Arduino. The way around this was to install a sound detection module to the Arduino and place it in proximity to the Google Next unit inside the fish. It means that technically the system is open to influence from outside noises, but even the loudest sounds don't seem to upset the fish once the levels are properly set in testing. 
+This project was my first foray into coding! I'm really excited to share this code. There are one or two other guides for Alexa Billy Bass hybrids there, but they had a fatal flaw; in the code, the audio signal was being fed into the Arduino which is VERY dangerous. An audio signal contains negative voltage which will damage and destroy your Arduino. The way around this was to install a sound detection module to the Arduino and place it in proximity to the Google Nest unit inside the fish. It means that technically the system is open to influence from outside noises, but even the loudest household sounds don't seem to upset the fish once the levels are properly set in testing. 
 	
 ## Technologies
 Project is created with:
