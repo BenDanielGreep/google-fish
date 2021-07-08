@@ -21,7 +21,7 @@ I'll explain what it does below.
 
 ## Guide
 
-The first step is declaring your inputs, outputs and counters. Things that are going to be referenced while the code runs.
+When writing code for Arduino, the first step is declaring your inputs, outputs and counters. Things that are going to be referenced while the code runs.
 * AFMotor is a library that allows control of the motors, which you assign to the corresponding pins on the Arduino.
 * You can see that the interval timers can (and probably will)  need adjusting as you test your setup, due to the narrow threshold the audio and light sensors operate within. 
 
